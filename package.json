@@ -1,0 +1,25 @@
+{
+	"name": "odin-library-server",
+	"version": "1.0.0",
+	"description": "https://www.theodinproject.com/lessons/nodejs-routes",
+	"main": "./src/app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "node --watch ./src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rmahawewa/odin-library-server.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rmahawewa/odin-library-server/issues"
+	},
+	"homepage": "https://github.com/rmahawewa/odin-library-server#readme",
+	"dependencies": {
+		"dotenv": "^16.5.0",
+		"express": "^5.1.0"
+	}
+}
